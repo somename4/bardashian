@@ -1,0 +1,63 @@
+{
+"cost":{
+"lvl1":{
+    "guide":5,
+    "designs":5
+},
+"lvl2":{
+    "guide":40,
+    "designs":15
+},
+"lvl3":{
+    "guide":60,
+    "designs":40
+},
+"lvl4":{
+    "guide":80,
+    "designs":100
+},
+"lvl5":{
+    "guide":100,
+    "designs":200
+},
+"lvl6":{
+    "guide":120,
+    "designs":300
+},
+"lvl7":{
+    "guide":140,
+    "designs":400
+},
+"lvl8":{
+    "guide":200,
+    "designs":400
+},
+"lvl9":{
+    "guide":300,
+    "designs":400
+},
+"lvl10":{
+    "guide":420,
+    "designs":420
+},
+"lvl11":{
+    "guide":560,
+    "designs":420
+}
+},
+"svsPoints":{
+ "lvl1":0,
+ "lvl2":0,
+ "lvl3":0,
+ "lvl4":0,
+ "lvl5":0,
+ "lvl6":0,
+ "lvl7":0,
+ "lvl8":0,
+ "lvl9":0,
+ "lvl10":0,
+ "lvl11":0
+
+}
+
+}
