@@ -1,4 +1,4 @@
-fetch("../costs/charms.json")
+fetch("./costs/charms.json")
 .then(response => response.json())
 .then(data => {
     console.log(data);
