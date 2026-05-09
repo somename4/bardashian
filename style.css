@@ -24,23 +24,19 @@
     height: 100vh;
   }
 
-  .wrapper {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-  }
-
   /* CENTER BOX */
-  .center-box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 18vw;
-    height: 18vw;
-    background: #aaa;
-    border-radius: 2vw;
-  }
+ .center-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: clamp(140px, 18vw, 260px);
+  height: clamp(140px, 18vw, 260px);
+
+  background: #aaa;
+  border-radius: 2vw;
+}
 
   /* ICON GROUP */
   .icon-group {
@@ -52,25 +48,27 @@
 
   /* MAIN ICON */
   .icon.main {
-    width: 6vw;
-    height: 6vw;
-    background: #ddd;
-    border-radius: 1vw;
-    background-size: cover;
-    background-position: center;
+  width: clamp(60px, 6vw, 110px);
+  height: clamp(60px, 6vw, 110px);
+
+  background: #ddd;
+  border-radius: 1vw;
+  background-size: cover;
+  background-position: center;
   }
 
   /* SMALL ICONS */
   .sub-icons {
-    display: flex;
-    gap: 0.5vw;
-    margin-top: 0.5vw;
+  display: flex;
+  gap: clamp(6px, 0.5vw, 12px);
+  margin-top: clamp(6px, 0.5vw, 10px);
   }
 
   .sub-icons img {
-    width: 2vw;
-    height: 2vw;
-    border-radius: 0.4vw;
+  width: clamp(22px, 2vw, 40px);
+  height: clamp(22px, 2vw, 40px);
+
+  border-radius: 0.4vw;
   }
 
   /* LEFT SIDE */
@@ -93,17 +91,18 @@
 }
 
 .sub-item img {
-    width: 2vw;
-    height: 2vw;
+  width: clamp(22px, 2vw, 40px);
+  height: clamp(22px, 2vw, 40px);
     cursor: pointer;
 }
 
 .sub-item select {
     display: none;
 
-    margin-top: 0.3vw;
+    margin-top: clamp(4px, 0.3vw, 8px);
 
     width: 3vw;
 
-    font-size: 0.8vw;
+    font-size: clamp(12px, 0.8vw, 16px);
 }
+
